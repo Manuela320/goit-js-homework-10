@@ -21,5 +21,8 @@
     "axios": "^1.7.2",
     "notiflix": "^3.2.7",
     "slim-select": "^2.8.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
