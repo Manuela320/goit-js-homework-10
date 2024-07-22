@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Breeds</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../node_modules/slim-select/dist/slimselect.css">
+</head>
+<body>
+    <h1>Select a Cat Breed</h1>
+    <p class="loader" hidden>Loading data, please wait...</p>
+    <p class="error" hidden>Oops! Something went wrong! Try reloading the page!</p>
+    <select class="breed-select" hidden></select>
+    <div class="cat-info" hidden>
+        <img class="cat-image" src="https://via.placeholder.com/300x200" alt="Cat Image">
+        <h2 class="cat-name"></h2>
+        <p class="cat-description"></p>
+        <p class="cat-temperament"></p>
+    </div>
+    <script type="module" src="./index.js"></script>
+    <script src="../node_modules/notiflix/build/notiflix-notify-aio.js"></script>
+</body>
+</html>
